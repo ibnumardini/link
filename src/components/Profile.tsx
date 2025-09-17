@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Avatar from "./Avatar";
 import { bio } from "@/data/bio";
 
@@ -19,7 +20,8 @@ export default function Profile() {
             lineHeight: "1.3",
           }}
         >
-          {bio.name}
+          {bio.name}{" "}
+          <Image src="/favicon.ico" alt="icon" width={18} height={18} />
         </h1>
         <p
           style={{
