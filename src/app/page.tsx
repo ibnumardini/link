@@ -12,7 +12,10 @@ export default function Home() {
 
         <SocialButtons socialLinks={socialLinks} />
 
-        <div className="main-links">
+        <div
+          className="main-links"
+          style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}
+        >
           {mainLinks.map((link, index) => (
             <LinkCard key={index} link={link} />
           ))}

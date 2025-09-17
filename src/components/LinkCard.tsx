@@ -15,6 +15,7 @@ export default function LinkCard({ link }: LinkCardProps) {
       style={{
         display: "flex",
         alignItems: "center",
+        justifyContent: "center",
         gap: "12px",
         padding: "16px 20px",
         margin: "8px 0",
@@ -26,6 +27,8 @@ export default function LinkCard({ link }: LinkCardProps) {
         border: link.featured ? "none" : "1px solid rgba(128, 32, 56, 0.2)",
         fontSize: "16px",
         fontWeight: "500",
+        flex: 1,
+        minWidth: 0,
       }}
     >
       <Icon name={link.icon as any} size={20} />

@@ -33,6 +33,11 @@ export const socialLinks: SocialLink[] = [
     url: "https://linkedin.com/in/ibnumardini",
     icon: "Linkedin",
   },
+  {
+    platform: "Email",
+    url: "mailto:hi@mardini.dev",
+    icon: "Mail",
+  },
 ];
 
 export const mainLinks: Link[] = [
@@ -46,11 +51,6 @@ export const mainLinks: Link[] = [
     title: "Download CV",
     url: "https://s.id/fatkur-cv-download",
     icon: "Download",
-  },
-  {
-    title: "Contact Me",
-    url: "mailto:hi@mardini.dev",
-    icon: "Mail",
   },
 ];
 
@@ -76,7 +76,8 @@ export const projectLinks: Link[] = [
   {
     title: "Wilayah Indonesia API",
     url: "https://wilayah-indonesia-api.mardini.dev/swagger/index.html",
-    description: "Indonesian region data API (provinces, cities, districts, villages).",
+    description:
+      "Indonesian region data API (provinces, cities, districts, villages).",
     icon: "Map",
   },
   {
