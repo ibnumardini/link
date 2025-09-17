@@ -17,7 +17,7 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
         display: "flex",
         alignItems: "flex-start",
         gap: "12px",
-        padding: "18px 20px",
+        padding: "14px 18px",
         margin: "10px 0",
         backgroundColor: "rgba(255, 255, 255, 0.6)",
         color: "#2d1b35",

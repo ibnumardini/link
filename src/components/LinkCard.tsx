@@ -17,7 +17,7 @@ export default function LinkCard({ link }: LinkCardProps) {
         alignItems: "center",
         justifyContent: "center",
         gap: "12px",
-        padding: "16px 20px",
+        padding: "14px 18px",
         backgroundColor: link.featured ? "#802038" : "rgba(255, 255, 255, 0.8)",
         color: link.featured ? "#fff" : "#2d1b35",
         borderRadius: "12px",
