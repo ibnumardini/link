@@ -14,7 +14,12 @@ export default function Home() {
 
         <div
           className="main-links"
-          style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}
+          style={{
+            display: "flex",
+            gap: "12px",
+            flexDirection: "row",
+            flexWrap: "wrap",
+          }}
         >
           {mainLinks.map((link, index) => (
             <LinkCard key={index} link={link} />

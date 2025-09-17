@@ -92,4 +92,9 @@ body {
   .main-card {
     padding: 30px 20px;
   }
+  
+  .main-links {
+    flex-direction: column !important;
+    gap: 0 !important;
+  }
 }
