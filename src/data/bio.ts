@@ -3,6 +3,7 @@ export const bio = {
   nickname: "ibnumardini",
   bio: "A Passionate Tech Enthusiast and Software Engineer",
   avatar: "/images/me.webp",
-  location: "Yogyakarta, Indonesia 🇮🇩",
-  website: "https://ibnu.mardini.dev"
+  location: "Yogyakarta, Indonesia",
+  countryCode: "id",
+  website: "https://ibnu.mardini.dev",
 };

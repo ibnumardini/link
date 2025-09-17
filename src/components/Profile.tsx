@@ -58,7 +58,7 @@ export default function Profile() {
             fontWeight: "500",
           }}
         >
-          📍 {bio.location}
+          📍 {bio.location} <span className={`fi fi-${bio.countryCode}`}></span>
         </p>
       )}
     </div>
