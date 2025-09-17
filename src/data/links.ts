@@ -14,19 +14,19 @@ export interface SocialLink {
 
 export const socialLinks: SocialLink[] = [
   {
-    platform: "Instagram",
-    url: "https://instagram.com/ibnu.mardini.dev",
-    icon: "Instagram",
-  },
-  {
-    platform: "Twitter",
-    url: "https://twitter.com/ibnumardini",
-    icon: "Twitter",
-  },
-  {
     platform: "GitHub",
     url: "https://github.com/ibnumardini",
     icon: "Github",
+  },
+  {
+    platform: "Facebook",
+    url: "https://fb.com/ibnumardini",
+    icon: "Facebook",
+  },
+  {
+    platform: "Instagram",
+    url: "https://instagram.com/ibnu.mardini.dev",
+    icon: "Instagram",
   },
   {
     platform: "LinkedIn",

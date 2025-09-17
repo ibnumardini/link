@@ -1,6 +1,7 @@
 import {
   Instagram,
   Twitter,
+  Facebook,
   Github,
   Linkedin,
   Globe,
@@ -17,6 +18,7 @@ import {
 const iconMap = {
   Instagram,
   Twitter,
+  Facebook,
   Github,
   Linkedin,
   Globe,
