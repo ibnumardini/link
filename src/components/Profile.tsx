@@ -23,14 +23,17 @@ export default function Profile() {
         </h1>
         <p
           style={{
-            fontSize: "20px",
+            fontSize: "15px",
             fontWeight: "500",
             color: "#802038",
-            margin: "0 0 4px",
-            fontStyle: "italic",
+            margin: "0 0 12px",
+            fontFamily: "'Borel', 'Brush Script MT', cursive",
+            textDecoration: "underline",
+            textDecorationStyle: "wavy",
+            textDecorationColor: "#802038",
           }}
         >
-          aka. {bio.nickname}
+          @{bio.nickname}
         </p>
       </div>
 
