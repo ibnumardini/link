@@ -95,6 +95,5 @@ body {
   
   .main-links {
     flex-direction: column !important;
-    gap: 0 !important;
   }
 }

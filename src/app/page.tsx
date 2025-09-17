@@ -26,7 +26,7 @@ export default function Home() {
           ))}
         </div>
 
-        <div style={{ margin: "32px 0 24px" }}>
+        <div style={{ margin: "32px 0" }}>
           <hr
             style={{
               border: "none",
